@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <title>Scid-page</title>
 </head>
+
 <body>
-  jjgjgjgjgjgjgjg
+  @@include('./components/header/header.html')
+  @@include('./components/main/main.html')
+  @@include('./components/footer/footer.html')
+
+  <!--START mobile menu-->
+  <div class="mobile-navigation__shadow js-mobileShadow"></div>
+  <div class="mobile-navigation__menu js-mobileMenu">
+    @@include('./components/navigation/navigation.html')
+  </div>
+  <!--END mobile menu-->
+
+  <script src="js/script.js">
+    {
+      const swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        slidesPerColumn: 1,
+        spaceBetween: 0,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+      console.log(swiper);
+
+    }
+  </script>
 </body>
+
 </html>

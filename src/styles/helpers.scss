@@ -1,0 +1,59 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 1281px) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  @media only screen and (max-width: 786px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media only screen and (max-width: 640px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media only screen and (max-width: 425px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+// кнопка color
+// пример @include btn;
+@mixin btn {
+	display: inline-block;
+	border: 1.5px solid var(--button-color);
+  border-radius: 30px;
+  background-color: #fff;
+	color: var(--button-color);
+	outline: none;
+	// width: 100%;
+  @include cursor;
+	text-align: center;
+	text-decoration: none;
+	padding: 12px 28px;
+  font-size: 18px;
+  line-height: 24px;
+	&:hover {
+		color: var(--accent-hover);
+    border-color: var(--accent-hover);
+	}
+}
+
+//курсор
+// пример @include cursor;
+@mixin cursor {
+  cursor: 
+		url('../img/icons/cursor.svg'),
+		pointer;
+}

@@ -1,13 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <title>Scid-page</title>
 </head>
+
 <body>
-  jjgjgjgjgjgjgjg
+  <!--START header-->
+<header class="header">
+  <div class="header-menu container">
+    <a href="" class="header-menu__log">
+      <img src="./img/logo/logo.svg" alt="logo">
+    </a>
+
+    <div class="header-menu__navigation">
+      <!-- START navigation -->
+<nav class="header-navigation-list header-navigation-list--mobile js-menuMove">
+  <a class="navigation-link" href="javascript:;">Кейсы</a>
+  <a class="navigation-link navigation-link--accent" href="javascript:;">
+    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M8.59454 5.75211L7 0.5L5.40546 5.75211H0L4.37311 9.15247L2.7496 14.5L7 11.195L11.2504 14.5L9.62689 9.15247L14 5.75211H8.59454Z"
+        fill="#00A76B" />
+    </svg>
+    <span>Бизнесу</span>
+  </a>
+  <a class="navigation-link" href="javascript:;">Услуги</a>
+  <a class="navigation-link" href="javascript:;">Контакты</a>
+</nav>
+<!-- END navigation -->
+      <div class="menu-burger js-menuTrigger">
+        <span class="menu-burger__line"></span>
+      </div>
+      <button class="header-menu__button">Заказать звонок</button>
+    </div>
+  </div>
+</header>
+<!-- END header-->
+
+<!-- START  Slider -->
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="./img/images/mainImageSwiper.jpg" alt="mainImageSwiper" class="swiper-slide__img">
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/images/mainImageSwiper_2.jpg" alt="mainImageSwiper" class="swiper-slide__img">
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/images/mainImageSwiper_3.jpg" alt="mainImageSwiper" class="swiper-slide__img">
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/images/mainImageSwipe_4.jpg" alt="mainImageSwiper" class="swiper-slide__img">
+    </div>
+  </div>
+
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+<!--END  Slider -->
+  <section class="services container">
+  <h2 class="services-title">Наши услуги</h2>
+  <div class="services-operation">
+    <a href="#" class="services-operation__item">
+      <img src="./img/images/roof.jpg" alt="" class="services-operation-img">
+      <div class="services-operation-description">Кадастровые работы в отношении земельных участков</div>
+    </a>
+    <a href="#" class="services-operation__item">
+      <img src="./img/images/circleWindow.jpg" alt="" class="services-operation-img">
+      <div class="services-operation-description">Кадастровые работы в отношении земельных участков</div>
+    </a>
+    <a href="#" class="services-operation__item">
+      <img src="./img/images/stairs.jpg" alt="" class="services-operation-img">
+      <div class="services-operation-description">Кадастровые работы в отношении земельных участков</div>
+    </a>
+    <a href="#" class="services-operation__item">
+      <img src="./img/images/cornerWindows.jpg" alt="" class="services-operation-img">
+      <div class="services-operation-description">Кадастровые работы в отношении земельных участков</div>
+    </a>
+    <a href="#" class="services-operation__item">
+      <img src="./img/images/circleTrees.jpg" alt="" class="services-operation-img">
+      <div class="services-operation-description">Кадастровые работы в отношении земельных участков</div>
+    </a>
+    <a href="#" class="services-operation__item">
+      <img src="./img/images/whiteWalls.jpg" alt="" class="services-operation-img">
+      <div class="services-operation-description">Кадастровые работы в отношении земельных участков</div>
+    </a>
+  </div>
+  <button class="services-operation__button">Все услуги</button>
+</section>
+  <!--START footer-->
+<footer class="footer">
+  <section class="footer-menu-wrapper container">
+    <div></div>
+    <div class="footer-menu__column-link">
+      <div class="column-link-title">Для связи</div>
+      <a href="#" class="footer-menu__link">
+        <img src="whatsApp.svg" alt="whatsApp">
+        7 (926) 126-64-57
+      </a>
+      <a href="#" class="footer-menu__link">
+        <img src="mail.svg" alt="whatsApp">
+        7 (926) 126-64-57
+      </a>
+      <a href="#" class="footer-menu__link">
+        <img src="telegram.svg" alt="whatsApp">
+        7 (926) 126-64-57
+      </a>
+    </div>
+    <div class="footer-menu__column-link">
+      <div class="column-link-title">Компания</div>
+      <a href="#" class="footer-menu__link">Услуги</a>
+      <a href="#" class="footer-menu__link">Кейсы</a>
+      <a href="#" class="footer-menu__link">Контакты</a>
+      <a href="#" class="footer-menu__link">Сотрудничество</a>
+    </div>
+    <div class="footer-menu__column-link">
+      <div class="column-link-title">Документы</div>
+      <a href="#" class="footer-menu__link">Политика конфеденциальности</a>
+      <a href="#" class="footer-menu__link">Пользовательское соглашение</a>
+    </div>
+    <div class="footer-menu__column-link">
+      <div class="column-link-title">Будьте в курсе</div>
+      <input type="email" class="column-link__input">
+      <div class="column-link-socil">
+        <img src="./img/image/instagram.svg" alt="instagram">
+        <img src="./img/image/vk.svg" alt="vk">
+        <img src="./img/image/facebook.svg" alt="facebook">
+      </div>
+    </div>
+  </section>
+</footer>
+<!--END footer-->
+
+  <!--START mobile menu-->
+  <div class="mobile-navigation__shadow js-mobileShadow"></div>
+  <div class="mobile-navigation__menu js-mobileMenu">
+    <!-- START navigation -->
+<nav class="header-navigation-list header-navigation-list--mobile js-menuMove">
+  <a class="navigation-link" href="javascript:;">Кейсы</a>
+  <a class="navigation-link navigation-link--accent" href="javascript:;">
+    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M8.59454 5.75211L7 0.5L5.40546 5.75211H0L4.37311 9.15247L2.7496 14.5L7 11.195L11.2504 14.5L9.62689 9.15247L14 5.75211H8.59454Z"
+        fill="#00A76B" />
+    </svg>
+    <span>Бизнесу</span>
+  </a>
+  <a class="navigation-link" href="javascript:;">Услуги</a>
+  <a class="navigation-link" href="javascript:;">Контакты</a>
+</nav>
+<!-- END navigation -->
+  </div>
+  <!--END mobile menu-->
+
+  <script src="js/script.js">
+    {
+      const swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        slidesPerColumn: 1,
+        spaceBetween: 0,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+      console.log(swiper);
+
+    }
+  </script>
 </body>
+
 </html>

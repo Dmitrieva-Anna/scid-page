@@ -1,2 +1,11 @@
+:root {
+  --background-footer: #00A76B;
+  --accent-hover: #00A76B;
+  --button-color: #00BB78;
+  --rectangle-background: #009B63;
+  --title-color: #18191F;
+  --text-color-dark: #000000;
+  --text-color-light: #FFFFFF;
+  --list-menu-color: #0E0E0F; }
 
 /*# sourceMappingURL=variables.css.map */
