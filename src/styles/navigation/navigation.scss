@@ -4,7 +4,7 @@
 
   @media only screen and (max-width: 960px) {
     position: fixed;
-		top: -500px;
+		top: -720px;
 		left: 0;
 		width: 100%;
 		height: 50%;
@@ -21,7 +21,7 @@
   font-size: 16px;
   line-height: 22px;
   color: var(--text-color-dark);
-  @include cursor;
+  // @include cursor;
   &:hover {
     color: var(--accent-hover);
   }
