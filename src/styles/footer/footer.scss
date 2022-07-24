@@ -23,7 +23,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 32px;
 
-    .footer-menu__column-link{
+    .footer-menu__column-link {
       &--documents {
         grid-column: 2;
       }
@@ -44,7 +44,7 @@
     grid-row: repeat(4, 1fr);
     column-gap: 0;
 
-    .footer-menu__column-link{
+    .footer-menu__column-link {
       &--documents {
         grid-column: 2;
       }
@@ -60,7 +60,7 @@
   }
 
   @media only screen and (max-width: 376px) {
-    .footer-menu__column-link{
+    .footer-menu__column-link {
       &--social-media {
         grid-column: 1 / -1;
       }
@@ -87,6 +87,12 @@
     color: var(--text-color-light);
     display: flex;
     align-items: center;
+
+    &:hover {
+      @include cursor;
+      color: var(--text-color-dark);
+      transition: color 0.3s ease;
+    }
   }
 
   &__link-img {

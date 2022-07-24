@@ -28,11 +28,6 @@
   }
 }
 
-.hidden {
-  display: none;
-}
-
-// кнопка color
 // пример @include btn;
 @mixin btn {
   display: inline-block;
@@ -41,7 +36,6 @@
   background-color: #fff;
   color: var(--button-color);
   outline: none;
-  // width: 100%;
   @include cursor;
   text-align: center;
   text-decoration: none;
@@ -54,7 +48,6 @@
   }
 }
 
-//курсор
 // пример @include cursor;
 @mixin cursor {
   cursor: url("../img/icons/cursor.svg"), pointer;

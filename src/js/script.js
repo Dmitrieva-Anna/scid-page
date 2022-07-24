@@ -1,12 +1,3 @@
-// import Swiper, { Navigation, Pagination } from 'swiper';
-// import Swiper and modules styles
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import 'swiper/css/pagination';
-
-// import { Swiper } from 'swiper'
-
-
 new Swiper('.swiper', {
   pagination: {
     el: '.swiper-pagination',
@@ -18,33 +9,13 @@ new Swiper('.swiper', {
   },
 })
 
-// {
-//   const swiper = new Swiper('.swiper', {
-//     slidesPerView: 1,
-//     slidesPerColumn: 1,
-//     spaceBetween: 0,
-//     pagination: {
-//       el: '.swiper-pagination',
-//       clickable: true,
-//     },
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-//   });
-
-//   console.log(swiper);
-
-// }
-
 /**
- * mainMenuTrigger - показ и скрытие мобльного меню
+ * mainMenuTrigger - показ и скрытие мобильного меню
  */
 const mainMenuTrigger = () => {
   const menuTrigger = document.querySelector('.js-menuTrigger');
   const menuMove = document.querySelector('.js-menuMove');
 
-  // new
   const mobileMenu = document.querySelector('.js-mobileMenu');
   const mobileShadow = document.querySelector('.js-mobileShadow');
 
