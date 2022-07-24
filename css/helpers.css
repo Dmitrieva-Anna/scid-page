@@ -1,0 +1,25 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto; }
+  @media only screen and (max-width: 1281px) {
+    .container {
+      padding-left: 80px;
+      padding-right: 80px; } }
+  @media only screen and (max-width: 1024px) {
+    .container {
+      padding-left: 60px;
+      padding-right: 60px; } }
+  @media only screen and (max-width: 786px) {
+    .container {
+      padding-left: 40px;
+      padding-right: 40px; } }
+  @media only screen and (max-width: 640px) {
+    .container {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  @media only screen and (max-width: 425px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+/*# sourceMappingURL=helpers.css.map */
